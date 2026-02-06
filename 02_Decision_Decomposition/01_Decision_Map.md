@@ -1,102 +1,94 @@
-# Decision Decomposition: Intervention Prioritization
+# Decision Decomposition
 
-## Purpose of this decomposition
-The core decision — *which production cycles to intervene in* — is not binary and cannot be answered by a single metric.
+## What Uncertainty Blocks Action?
 
-This decomposition breaks the decision into a small number of judgment-led sub-decisions that together determine **whether intervention is warranted, urgent, and feasible**.
+The key uncertainties that make this decision difficult are:
 
-The intent is to:
-- prevent metric-chasing
-- avoid reacting to noise
-- focus management attention where downside risk is highest
+### 1. Execution vs Luck
+Cycles may have similar outcomes for very different reasons:
+- Some cycles succeed due to disciplined execution
+- Some succeed due to favorable external conditions
+- Some fail due to poor execution despite favorable conditions
+- Some fail due to uncontrollable stressors
 
----
-
-## Primary decision
-**Should this production cycle receive management intervention next quarter?**
-
-This decision is evaluated **cycle by cycle**, under capacity constraints.
+Without isolating execution quality, decisions may reinforce luck rather than discipline.
 
 ---
 
-## Sub-decision 1: Is performance meaningfully off-track?
-This asks whether the cycle shows **material deviation**, not just variance.
+### 2. Noise vs True Risk
+Observed performance is noisy:
+- Weather effects impact cost and performance but are not management-controllable
+- Input cost fluctuations distort cost metrics
+- Labor availability varies unpredictably
+- Headline profit hides execution risk
 
-Key idea:
-- Small deviations are expected in operations
-- Intervention is justified only when deviation is economically or operationally significant
-
-This sub-decision filters out:
-- normal process noise
-- statistically insignificant swings
-- overreaction to single outcomes
+Management must avoid reacting to noise rather than true risk.
 
 ---
 
-## Sub-decision 2: Is the deviation driven by execution or external factors?
-This distinguishes:
-- controllable execution issues
-- from uncontrollable or one-off external effects
+### 3. Controllability vs Uncontrollability
+Decisions must focus on **controllable factors** (where intervention can improve outcomes) and not punish uncontrollable variance.
 
-Key idea:
-- Management intervention is effective only when execution is the root cause
-- Penalizing uncontrollable variance destroys trust and wastes attention
+Examples:
+- Corrective feed adjustments or supervision
+- Process discipline improvements
 
-This sub-decision protects against:
-- blaming teams for weather, market, or biological variance
-- misdirected corrective action
+Not directly actionable:
+- Weather-driven outcomes
+- Input cost shocks outside management control
 
 ---
 
-## Sub-decision 3: Is downside risk concentrated or diffuse?
-This evaluates whether:
-- losses are tail-heavy
-- cost leakage accelerates beyond thresholds
-- risk compounds if left unattended
+## What Signals Matter?
 
-Key idea:
-- Averages hide tail risk
-- Management attention should follow **risk concentration**, not mean performance
+Signals that carry decision-relevant information:
 
-This sub-decision elevates:
-- cycles that may look acceptable on average
-- but carry asymmetric downside exposure
+### A. Persistent Deviations from Benchmarks
+Not one-off blips, but **consistent inefficiencies** that indicate poor execution.
 
 ---
 
-## Sub-decision 4: Can intervention realistically change the outcome?
-This checks feasibility.
-
-Key idea:
-- Not all problems are solvable within the next cycle
-- Intervention capacity is limited and must be spent where impact is plausible
-
-This sub-decision prevents:
-- symbolic interventions
-- late-stage micromanagement
-- false accountability
+### B. High Mortality / Loss
+Irrecoverable loss is a strong negative signal.
 
 ---
 
-## Sub-decision 5: What is the opportunity cost of intervening here?
-This forces explicit trade-offs.
-
-Key idea:
-- Every intervention crowds out another
-- Choosing one cycle implicitly deprioritizes others
-
-This sub-decision ensures:
-- prioritization is comparative, not absolute
-- attention is allocated across the portfolio, not in isolation
+### C. High Cost per Unit Outcome (Controllable Portion)
+Elevated cost driven by execution rather than external shocks.
 
 ---
 
-## Decision rule (conceptual)
-A cycle is prioritized for intervention only when:
-- deviation is material,
-- execution is a meaningful driver,
-- downside risk is concentrated,
-- intervention is feasible,
-- and opportunity cost is justified.
+### D. Variance Magnitude (Tail Risk)
+Large variances — even in profitable cycles — indicate hidden risk.
 
-No single KPI is sufficient to answer this alone.
+---
+
+## What Signals Are Noise or Less Relevant?
+
+The following are treated as noise in the decision framework:
+
+- Short-lived cost spikes due to external shocks
+- Outcome success driven solely by favorable conditions
+- Power outages not related to execution discipline
+- Demand changes not controllable by operations
+
+---
+
+## What Management Can Act On
+
+Management intervention is effective where:
+- Execution variance arises from process discipline
+- Input utilization can be corrected
+- Losses are linked to controllable behaviors
+
+Management cannot directly change:
+- Weather
+- Festival-induced labor patterns
+- Price shocks
+
+---
+
+## Summary
+
+This decomposition clarifies that the key uncertainty is separating **true execution risk** from **noise and luck**.  
+The decision logic must therefore prioritize cycles where controllable risk factors dominate observed performance deviations.
