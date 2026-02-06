@@ -92,3 +92,4 @@ Management cannot directly change:
 
 This decomposition clarifies that the key uncertainty is separating **true execution risk** from **noise and luck**.  
 The decision logic must therefore prioritize cycles where controllable risk factors dominate observed performance deviations.
+This framework intentionally avoids optimizing for outcomes and instead optimizes for decision quality.
