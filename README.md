@@ -1,89 +1,60 @@
-# Risk-Adjusted Operations Prioritization 
-### Under Cost & Execution Variance
+# Risk-Adjusted Operations Prioritization  
+### Decision-Focused Business Analyst Portfolio Project
 
-## What this project is
+## What This Project Is
+This project demonstrates how a Business Analyst supports **real operational decisions under uncertainty**, where:
+- Management attention is limited
+- Performance signals are noisy
+- Averages hide true execution risk
 
-
-This is a decision-focused Business Analyst project, not a dashboard or visualization exercise.
-
-The project demonstrates how an Operations Manager can prioritize limited intervention capacity across production cycles when:
-- performance data is noisy
-- averages hide risk
-- cost leakage is concentrated in the tail
-- good outcomes can hide bad execution
-- bad outcomes can hide good execution
-- management attention is the scarcest resource
-
-The emphasis is on **decision logic**, **risk-aware prioritization**, and **managerial defensibility**.
+The core problem addressed is **where management should intervene—and where it should not—when not everything can be fixed at once**.
 
 ---
 
-## Core business decision
-**Which production cycles should management intervene in next quarter when time, people, and capital are constrained?**
+## Decision Context
+An Operations Manager must decide which production cycles to prioritize for intervention in the upcoming quarter to reduce:
+- cost leakage
+- execution instability
+- hidden operational risk
 
-The decision is made under:
-- execution variability
-- imperfect signals
-- delayed feedback
-- asymmetric downside risk
-
----
-
-## Decision owner
-Operations Manager (plant / cluster level)
-
-This role is accountable for:
-- operational outcomes
-- cost control
-- intervention prioritization
-- escalation decisions
+Decisions must be made **before outcomes are known**, using imperfect data.
 
 ---
 
-## What this project deliberately avoids
-- Dashboard-first thinking  
-- KPI overload  
-- Tool-driven analysis  
-- Retrospective storytelling  
-- Optimization theater  
+## What This Project Demonstrates
+- Decision framing under ambiguity
+- Scope control and governance discipline
+- KPI restraint (no metric sprawl)
+- Risk-adjusted prioritization logic
+- Explicit trade-offs and decision rules
+- Misclassification risk awareness
+- Post-decision monitoring and iteration
 
-Every artifact exists to support a **forward-looking managerial decision**.
-
----
-
-## Dataset overview
-- Real poultry operations data at cycle level
-- Daily operational data aggregated to cycles
-- Benchmarks, costs, harvest outputs
-- Separate simulated stress dataset for downside testing
-
-> Raw data is not published to protect commercial sensitivity.  
-> All logic, assumptions, and decision structure are fully transparent.
+This is **not** a dashboard or reporting showcase.
 
 ---
 
-## How to read this repository
-1. Start with **01_Decision_Context** to understand the problem framing
-2. Move to **02_Decision_Decomposition** to see how the decision is structured
-3. Review **03_Data_and_Inputs** for data credibility and limits
-4. Analysis and recommendations follow only after decision clarity
+## What This Project Is NOT
+- ❌ A Power BI dashboard demo  
+- ❌ A performance ranking exercise  
+- ❌ A forecasting or optimization model  
+- ❌ A data science or ML project  
 
-This ordering mirrors how a senior analyst should think — not how tools encourage you to work.
-
----
-
-## Intended audience
-- Hiring managers evaluating Business Analysts
-- Operations leaders assessing decision quality
-- Interview panels testing judgment under uncertainty
+Power BI is used **only as supporting evidence**, not as the deliverable.
 
 ---
 
-## Author intent
-This project is designed to be:
-- interview-defensible
-- decision-first
-- senior-analyst aligned
-- resistant to hindsight bias
+## How to Navigate This Repository
 
-It reflects how real operational decisions are made under constraint — not how clean case studies are written.
+**Start here:**
+- 📄 `exec_decision_memo.md` — executive-ready summary of the decision, insight, and recommendation
+
+**Then explore (optional):**
+- `01_Decision_Context/` — problem framing, assumptions, KPI definitions, data governance  
+- `02_Decision_Decomposition/` — decision logic, intervention rules, misclassification risk  
+- `03_Data_and_Inputs/` — how data is mapped and constructed for decisions  
+- `04_Analysis_and_Logic/` — baseline prioritization, variance concentration, stress testing  
+- `05_Recommendations/` — options analysis, final recommendation, monitoring plan  
+- `07_Limitations_and_Risks/` — explicit limitations and risk handling  
+
+Supporting visuals (where used) are stored in `/visuals`.
